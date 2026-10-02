@@ -5,11 +5,19 @@ Mobiflight Project to make some flight controls using an Arduino Mega and basic 
 | Component | Function |
 | --------- | -------- |
 | Rotary Encoder 1 | AP Altitude (INC/DEC + SLOW/FAST) and Push to ALT LOCK) |
-| Rotary Encoder 2 |  |
-| Rotary Encoder 3 |  |
-| Rotary Encoder 4 |  |
+| Rotary Encoder 2 | !Heading! |
+| Rotary Encoder 3 | !VS! |
+| Rotary Encoder 4 | !Elevator Trim! |
 | Rotary Encoder 5 |  |
-| LED 1 |  |
+| LED 1 | AP Status |
+| LED 2 | Landing Gear |
+| LED 3 | Parking Break |
+| LED 4 |  |
+| LED 5 |  |
+| Trim Pot ||
+
+
+
 | Trim Pot 1 |  |
 
 Currently its mounted on a cardboard box.
