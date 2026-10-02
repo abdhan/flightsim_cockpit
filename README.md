@@ -20,7 +20,7 @@ Currently, its mounted on a cardboard box.
 
 ## To Do
 - [ ] Draw a simple circuit diagram with all components
-- [ ] Draw a schematic to implement the components onto a perf board
+- [ ] Draw a schematic to mount the components onto a perf board
 - [ ] Draw a model to see how the controls will be placed
 - [ ] Model simple shape in 3D to determine size of enclosure
 - [ ] Obtain enclosure and drill mounting holes and assemble the circuit
