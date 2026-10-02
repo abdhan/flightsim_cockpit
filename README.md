@@ -1,2 +1,5 @@
 # flightsim_cockpit
-Arduino code for cockpit controls for Flight Sim
+Mobiflight Project to make some flight controls using an Arduino Mega and basic electronic components.
+
+
+Mobiflight: https://github.com/mobiflight
