@@ -16,11 +16,7 @@ Mobiflight Project to make some flight controls using an Arduino Mega and basic 
 | LED 5 |  |
 | Trim Pot ||
 
-
-
-| Trim Pot 1 |  |
-
-Currently its mounted on a cardboard box.
+Currently, its mounted on a cardboard box.
 
 ## To Do
 - [ ] Draw a simple circuit diagram with all components
