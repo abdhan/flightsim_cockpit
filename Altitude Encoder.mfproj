@@ -1,0 +1,80 @@
+{
+  "Name": "Altitude",
+  "ConfigFiles": [
+    {
+      "Label": "Test encoder",
+      "FileName": "Z:\\code\\Mobiflight mods\\Test encoder.mcc",
+      "ReferenceOnly": false,
+      "EmbedContent": true,
+      "ConfigItems": [
+        {
+          "encoder": {
+            "onLeft": {
+              "Command": "100 (>K:AP_ALT_VAR_DEC)",
+              "PresetId": "",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "onLeftFast": {
+              "Command": "1000 (>K:AP_ALT_VAR_DEC)",
+              "PresetId": "bd8bf317-04dc-4bd3-835c-de62829704e5",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "onRight": {
+              "Command": "100 (>K:AP_ALT_VAR_INC)",
+              "PresetId": "",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "onRightFast": {
+              "Command": "1000 (>K:AP_ALT_VAR_INC)",
+              "PresetId": "62868c3e-e91b-4390-aceb-38d16e96f425",
+              "Type": "MSFS2020CustomInputAction"
+            }
+          },
+          "Device": {
+            "Type": "Encoder",
+            "Name": "Rotary Encoder"
+          },
+          "GUID": "9c4ad6d3-c686-462a-ab6f-b286226e4846",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "MobiFlight Mega",
+            "Serial": "SN-7F0-2F8"
+          }
+        },
+        {
+          "button": {
+            "onRelease": {
+              "Command": "(A:INDICATED ALTITUDE, feet) (>K:AP_ALT_VAR_SET_ENGLISH)",
+              "PresetId": "27983c4f-6278-436b-a5f7-08996e2d07e5",
+              "Type": "MSFS2020CustomInputAction"
+            },
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button"
+          },
+          "GUID": "9f84de8e-a8da-46e9-b6f7-fef71cef477f",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "MobiFlight Mega",
+            "Serial": "SN-7F0-2F8"
+          }
+        }
+      ]
+    }
+  ],
+  "Sim": "msfs",
+  "Aircraft": [],
+  "Features": {
+    "FSUIPC": false,
+    "ProSim": false
+  },
+  "_version": "0.10"
+}
