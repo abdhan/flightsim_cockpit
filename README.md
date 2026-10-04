@@ -19,7 +19,7 @@ Mobiflight Project to make some flight controls using an Arduino Mega and basic 
 Currently, its mounted on a cardboard box.
 
 ## Prototype
-<img width="807" height="664" alt="image" src="https://github.com/user-attachments/assets/11cc0d96-acb8-4bf3-b281-77b960002eed" />
+<img width="573" height="615" alt="image" src="https://github.com/user-attachments/assets/7406aa52-9946-48e2-9d42-cca1f77c9025" />
 
 ## To Do
 - [ ] Draw a simple circuit diagram with all components
